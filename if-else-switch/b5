@@ -12,7 +12,7 @@ int main(){
 			printf("x1 = %f ; x2 = %f", x1, x2);
 		}
 		else{
-			float x = -b/(2*2);
+			float x = -b/(2*a);
 			printf("nghiem kep x = %f", x);
 		}
 		return 0;
