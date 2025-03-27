@@ -5,7 +5,12 @@ int main()
 	long long giaithua = 1;
 	printf("Nhap n: ");
 	scanf("%d", &n);
-	for(int i=1; i<=n; i++)
+	if(n<0)
+	{
+	   printf("vui long nhap so khong am");
+	   return 0;
+        }
+        for(int i=1; i<=n; i++)
 		giaithua *= i;
 	printf("%d! bang : %lld", n, giaithua);
 }
