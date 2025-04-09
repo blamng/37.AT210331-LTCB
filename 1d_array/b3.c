@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-	int n;
-    do{
+        int n;
+        do{
         printf("Nhap n: ");
 	    scanf("%d", &n);
 	    if(n<=0) printf("nhap lai n");
